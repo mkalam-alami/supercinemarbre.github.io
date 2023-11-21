@@ -4,7 +4,7 @@ import SpoilerFree from '@/components/spoiler-free/SpoilerFree.vue';
 import { EpisodeMap, fetchEpisodes, fetchMovies } from '@/services/api.service';
 import { getMaxEpisode } from '@/services/utils.service';
 import { Episode, Movie } from '@/types';
-import { Component, Vue } from 'vue-property-decorator';
+import { Component, Vue } from 'vue-facing-decorator';
 
 @Component({
   components: {

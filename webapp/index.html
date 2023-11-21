@@ -12,7 +12,7 @@
     <meta name="twitter:description" content="Explorez les classements ultimes du cinéma ! Fait par et pour les fans du podcast Super Ciné Battle." />
     
     <meta name="twitter:image" content="https://supercinemarbre.github.io/img/card.png" />
-    <link rel="icon" href="<%= BASE_URL %>img/favicon.png">
+    <link rel="icon" href="/favicon.png">
     <title>Super Ciné Marbre</title>
   </head>
   <body>
@@ -20,5 +20,8 @@
       <strong>Super Ciné Marbre requiert JavaScript pour fonctionner. Veuillez l'activer pour continuer.</strong>
     </noscript>
     <div id="app"></div>
+
+    <script>window.global = window; // Chartist compatibility (simulate Webpack globals)</script>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

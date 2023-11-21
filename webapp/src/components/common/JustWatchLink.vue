@@ -1,6 +1,6 @@
 <template>
   <a v-if="movie && movie.jwFullPath" :href="'https://www.justwatch.com' + movie.jwFullPath">
-    <img src="../../../public/img/justwatch.png" />
+    <img src="/src/img/justwatch.png" />
   </a>
 </template>
 

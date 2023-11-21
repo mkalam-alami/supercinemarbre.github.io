@@ -1,6 +1,6 @@
 import { EpisodeMap } from '@/services/api.service';
 import { Movie } from '@/types';
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue } from 'vue-facing-decorator';
 import MovieListDesktop from './MovieListDesktop.vue';
 import MovieListMobile from './MovieListMobile.vue';
 

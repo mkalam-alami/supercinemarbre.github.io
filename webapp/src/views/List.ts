@@ -4,7 +4,7 @@ import SpoilerFree from '@/components/spoiler-free/SpoilerFree.vue';
 import { EpisodeMap, fetchEpisodes, fetchMovies } from '@/services/api.service';
 import { Movie } from '@/types';
 import { debounce } from 'lodash-es';
-import { Component, Ref, Vue, Watch } from 'vue-property-decorator';
+import { Component, Ref, Vue, Watch } from 'vue-facing-decorator';
 
 @Component({
   components: {

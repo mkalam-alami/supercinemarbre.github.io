@@ -1,6 +1,6 @@
 import ChartLine from '@/components/chart/ChartLine.vue';
 import { Movie } from '@/types';
-import { Component, Prop, Vue, Watch } from 'vue-property-decorator';
+import { Component, Prop, Vue, Watch } from 'vue-facing-decorator';
 
 @Component({
   components: {

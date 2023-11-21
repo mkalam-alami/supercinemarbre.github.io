@@ -1,6 +1,6 @@
 <template>
   <a v-if="!!movie.tconst && isValid" :href="'https://www.imdb.com/title/' + movie.tconst">
-    <img src="../../../public/img/imdb.png" />
+    <img src="/src/img/imdb.png" />
     {{ ratingLabel }}
   </a>
 </template>

@@ -8,7 +8,7 @@ import RatingMetacritic from '@/components/ratings/RatingMetacritic.vue';
 import RatingRT from '@/components/ratings/RatingRT.vue';
 import { EpisodeMap } from '@/services/api.service';
 import { Movie } from '@/types';
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue } from 'vue-facing-decorator';
 
 @Component({
   components: {

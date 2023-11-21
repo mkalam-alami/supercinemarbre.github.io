@@ -1,7 +1,7 @@
 <template>
   <span v-if="isValid">
     <span :class="'badge ' + color">{{ rating }}</span>
-    <!--img src="../../../public/img/mt-logo.svg" />-->
+    <!--img src="/src/img/mt-logo.svg" />-->
   </span>
 </template>
 

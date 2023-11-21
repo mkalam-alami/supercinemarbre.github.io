@@ -1,11 +1,11 @@
 <template>
- <v-app id="app">
+  <v-app id="app">
     <v-app-bar app clipped-left height="100" aria-label="En-tête">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" aria-label="Bascule menu"></v-app-bar-nav-icon>
       <v-toolbar-title>
         <h1>
           <a id="app-logo" to="/">
-            <img src="../public/img/logo.png" />
+            <img src="/src/img/logo.png" />
             Super Ciné Marbre
           </a>
         </h1>
@@ -40,19 +40,20 @@
 </style>
 
 <script lang="ts">
-import Vue from 'vue';
+import { defineComponent } from 'vue';
 import Sidebar from './components/sidebar/Sidebar.vue';
 
-export default Vue.extend({
+export default defineComponent({
   components: {
     Sidebar
   },
   data: () => ({
-    drawer: null,
+    drawer: null
   }),
   created () {
-    this.$vuetify.theme.dark = true;
-    this.$vuetify.lang.current = 'fr';
-  },
+    // TODO UPGRADE
+    // this.$vuetify.theme.dark = true;
+    // this.$vuetify.lang.current = 'fr';
+  }
 });
 </script>

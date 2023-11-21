@@ -1,11 +1,9 @@
 <template>
   <v-list-item link :to="to">
-    <v-list-item-action>
-      <v-icon>{{ icon }}</v-icon>
-    </v-list-item-action>
-    <v-list-item-content>
-      <v-list-item-title>{{ label }}</v-list-item-title>
-    </v-list-item-content>
+    <template v-slot:prepend>
+      <v-icon :icon="icon"></v-icon>
+    </template>
+    <v-list-item-title>{{ label }}</v-list-item-title>
   </v-list-item>
 </template>
 

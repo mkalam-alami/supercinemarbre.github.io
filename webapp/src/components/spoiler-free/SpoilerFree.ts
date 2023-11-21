@@ -2,7 +2,7 @@
 import { EpisodeMap } from '@/services/api.service';
 import { getMaxEpisode } from '@/services/utils.service';
 import { debounce } from 'lodash-es';
-import { Component, Prop, Vue, Watch } from 'vue-property-decorator';
+import { Component, Prop, Vue, Watch } from 'vue-facing-decorator';
 
 export interface SpoilerFreeSettings {
   enabled: boolean;

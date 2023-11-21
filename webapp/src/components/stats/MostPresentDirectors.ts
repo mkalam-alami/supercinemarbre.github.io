@@ -1,7 +1,7 @@
 import Ordinal from '@/components/common/Ordinal.vue';
 import { fetchMovies } from '@/services/api.service';
 import { Movie } from '@/types';
-import { Component, Vue } from 'vue-property-decorator';
+import { Component, Vue } from 'vue-facing-decorator';
 
 function byRanking(a: Movie, b: Movie) {
   return a.ranking - b.ranking;

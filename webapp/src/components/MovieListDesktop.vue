@@ -191,7 +191,7 @@
   font-size: 90%;
   margin-left: 10px;
 }
-::v-deep .movie-casting {
+:deep(.movie-casting) {
   color: #BBBBBB;
   font-size: 90%;
   margin-bottom: 5px;

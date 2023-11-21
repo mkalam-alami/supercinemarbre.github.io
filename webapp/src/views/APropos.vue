@@ -22,7 +22,7 @@
       <li>Remerciements aux contributeurs de cette même liste et autres efforts pour obtenir des timestamps : Quentin Haroche, Cellcious, wallydbecharef, et j'en oublie sûrement.</li>
       <li>Utilise des données de <a href="http://www.omdbapi.com/">OMDB</a> sous licence CC BY-NC 4.0.</li>
       <li>Information courtesy of IMDb (http://www.imdb.com). Used with permission.</li>
-      <li>This product uses the <a href="https://www.themoviedb.org"><img id="tmdblogo" alt="TMDB Logo" src="../../public/img/tmdb_blue_short.svg"></a> API but is not endorsed or certified by TMDb.</li>
+      <li>This product uses the <a href="https://www.themoviedb.org"><img id="tmdblogo" alt="TMDB Logo" src="/src/img/tmdb_blue_short.svg"></a> API but is not endorsed or certified by TMDb.</li>
       <li>Sans oublier <a href="http://supercinebattle.fr/">Les Listes</a>.</li>
     </ul>
 

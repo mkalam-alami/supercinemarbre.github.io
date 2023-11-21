@@ -99,12 +99,12 @@
   }
 }
 
-::v-deep .number {
+:deep(.number) {
   font-size: 150% !important;
 }
 
 @media (max-width: 520px) {
-  ::v-deep .date {
+  :deep(.date) {
     display: none;
   }
 }
@@ -114,26 +114,26 @@
   color: #888;
 }
 @media (max-width: 520px) {
-  ::v-deep .decade {
+  :deep(.decade) {
     display: none;
   }
-  ::v-deep .inline-details {
+  :deep(.inline-details) {
     display: block;
   }
 }
 
-::v-deep .episode-title {
+:deep(.episode-title) {
   font-size: 120% !important;
   font-weight: 700;
 }
 @media (max-width: 991px) {
-  ::v-deep .episode-title {
+  :deep(.episode-title) {
     font-size: 90% !important;
     font-weight: normal;
   }
 }
 
-::v-deep .movies {
+:deep(.movies) {
   margin-top: 5px;
   margin-bottom: 30px;
   width: 100%;
@@ -142,12 +142,12 @@
   justify-content: flex-start;
 }
 @media (max-width: 600px) {
-  ::v-deep .movies-row {
+  :deep(.movies-row) {
     display: none;
   }
 }
 
-::v-deep .article .v-icon, ::v-deep .download .v-icon {
+:deep(.article .v-icon, ::v-deep .download .v-icon) {
   font-size: 250% !important;
   color: #7ec6ff !important;
 }

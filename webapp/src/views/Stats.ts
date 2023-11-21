@@ -3,7 +3,7 @@ import MostPresentDirectors from '@/components/stats/MostPresentDirectors.vue';
 import MostPresentActors from '@/components/stats/MostPresentActors.vue';
 import { fetchMovies } from '@/services/api.service';
 import { Movie } from '@/types';
-import { Component, Vue } from 'vue-property-decorator';
+import { Component, Vue } from 'vue-facing-decorator';
 
 @Component({
   components: {

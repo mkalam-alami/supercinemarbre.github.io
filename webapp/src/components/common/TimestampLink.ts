@@ -1,5 +1,5 @@
 import { Episode, Movie } from '@/types';
-import { Component, Vue, Prop } from 'vue-property-decorator';
+import { Component, Vue, Prop } from 'vue-facing-decorator';
 
 @Component
 export default class TimestampLink extends Vue {

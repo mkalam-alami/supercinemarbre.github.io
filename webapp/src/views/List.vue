@@ -54,7 +54,7 @@
 }
 
 // TODO Move this IMDB popularity styling
-::v-deep td .v-progress-linear {
+:deep(td .v-progress-linear) {
   width: 150px;
 }
 </style>

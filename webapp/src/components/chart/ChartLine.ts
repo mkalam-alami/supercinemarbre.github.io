@@ -1,7 +1,6 @@
-
 import { generateId } from '@/services/utils.service';
 import Chartist, { IChartistLineChart } from 'chartist';
-import { Component, Prop, Vue, Watch } from 'vue-property-decorator';
+import { Component, Prop, Vue, Watch } from 'vue-facing-decorator';
 
 @Component({})
 export default class ChartLine extends Vue {
@@ -14,7 +13,7 @@ export default class ChartLine extends Vue {
   chart = {} as IChartistLineChart;
 
   async created() {
-    await Vue.nextTick();
+    await this.$nextTick();
     this.refresh();
   }
 
