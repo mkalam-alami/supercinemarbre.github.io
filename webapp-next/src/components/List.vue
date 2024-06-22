@@ -65,23 +65,23 @@ state.value = 'loaded';
 </script>
 
 <template>
-  <h2>
+  <h1>
     <span v-if="state !== 'loading'">
       <span v-if="decadeTitle">{{ decadeTitle }}</span>
       <span v-if="!decadeTitle">Tous les films classés du <a href="http://supercinebattle.fr/">Super Ciné
           Battle</a></span>
     </span>
-  </h2>
+  </h1>
 
   <v-container fluid style="margin-bottom: 15px">
     <v-row>
-      <v-col class="d-flex" cols="6" sm="4">
-        <!-- <SpoilerFree ref="spoilerFree" :episodes="episodes" @onChange="refreshMoviesAndEpisodes"></SpoilerFree> -->
-      </v-col>
       <v-col class="d-flex" cols="6" sm="8">
         <!--TODO fix icon, review attributes -->
         <v-text-field v-model="searchInputUndebounced" append-icon="search" single-line hide-details
           placeholder="Chercher un film, réalisateur, acteur..."></v-text-field>
+      </v-col>
+      <v-col class="d-flex" cols="6" sm="4">
+        <!-- <SpoilerFree ref="spoilerFree" :episodes="episodes" @onChange="refreshMoviesAndEpisodes"></SpoilerFree> -->
       </v-col>
     </v-row>
   </v-container>
