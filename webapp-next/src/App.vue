@@ -33,9 +33,9 @@ const drawer = ref(true)
     </v-navigation-drawer>
 
     <v-main id="main">
-
-      <RouterView />
-
+      <v-container fluid>
+        <RouterView />
+      </v-container>
     </v-main>
   </v-layout>
 </template>

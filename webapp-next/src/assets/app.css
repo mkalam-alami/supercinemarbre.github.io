@@ -1,4 +1,12 @@
-
 :root {
   --app-bar-height: 100px;
+}
+
+#main a {
+  color: #7ec6ff;
+  text-decoration: none;
+}
+
+#main a:hover {
+  color: white;
 }
