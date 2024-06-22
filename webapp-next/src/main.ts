@@ -12,6 +12,7 @@ import '@mdi/font/css/materialdesignicons.css'
 import './assets/main.css'
 
 const app = createApp(App)
+app.config.globalProperties.window = window
 
 app.use(router)
 

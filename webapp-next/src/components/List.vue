@@ -4,17 +4,22 @@ import { watchDebounced } from '@/services/utils';
 import type { Movie } from '@/types';
 import type { Ref } from 'vue';
 import { computed, ref } from 'vue';
+import MovieListDesktop from '@/components/movie-list/MovieListDesktop.vue';
+import MovieListMobile from '@/components/movie-list/MovieListMobile.vue';
 
 const props = defineProps({
   decade: String
 })
 
-const state = ref('loading')
-const searchInput = ref('');
-const searchUndebouncedInput = ref('');
+const window = globalThis.window;
+const state = ref('loading' as 'loading' | 'loaded')
+const searchInput = ref('')
+const searchInputUndebounced = ref('')
+const itemsPerPage = ref(5)
 const allMovies: Ref<Movie[]> = ref([])
 const episodes: Ref<EpisodeMap> = ref({})
 const spoilerFreeFromEpisode = ref(false as false | number); // TODO
+const mobileMode = ref(false);
 
 const decadeTitle = computed(() => props.decade ? `La liste ultime des années ${props.decade}` : '')
 const movies = computed(() => {
@@ -32,9 +37,13 @@ const filteredMovies = computed(() => {
   return movies.value.filter(m => m.searchString.includes(searchInput.value.toLowerCase()))
 })
 
-watchDebounced(searchUndebouncedInput, (value) => searchInput.value = value, 300);
+const refreshMobileMode = () => mobileMode.value = window.innerWidth < 991;
+
+watchDebounced(searchInputUndebounced, (value) => searchInput.value = value, 300);
 
 // Initialization
+
+refreshMobileMode();
 
 ;[allMovies.value, episodes.value] = await Promise.all([
   fetchMovies(),
@@ -47,10 +56,11 @@ allMovies.value.forEach(movie => {
       movie.actors?.join('|') + '|' +
       movie.directors?.join('|') +
       movie.year + '|' +
-      'episode ' + movie.id.episode).toLowerCase();
-  return movies;
+      'episode ' + movie.id.episode).toLowerCase()
+  movie.episode = movie.id.episode
 })
 state.value = 'loaded';
+
 
 </script>
 
@@ -70,11 +80,32 @@ state.value = 'loaded';
       </v-col>
       <v-col class="d-flex" cols="6" sm="8">
         <!--TODO fix icon, review attributes -->
-        <v-text-field v-model="searchUndebouncedInput" append-icon="search" single-line hide-details
+        <v-text-field v-model="searchInputUndebounced" append-icon="search" single-line hide-details
           placeholder="Chercher un film, réalisateur, acteur..."></v-text-field>
       </v-col>
     </v-row>
   </v-container>
 
-  {{ filteredMovies.map(m => m.title).join(' ') }}
+  <div v-resize="refreshMobileMode">
+    <MovieListDesktop
+      v-if="!mobileMode"
+      :movies="filteredMovies"
+      :episodes="episodes"
+      :currentDecade="props.decade"
+      :state="state"
+      :search="searchInput"
+      :sortBy="decade ? [] : [{key: 'episode', order: 'desc'}]"
+      :itemsPerPage="itemsPerPage"
+    ></MovieListDesktop>
+    <MovieListMobile
+      v-if="mobileMode"
+      :movies="filteredMovies"
+      :episodes="episodes"
+      :currentDecade="props.decade"
+      :state="state"
+      :search="searchInput"
+      :sortBy="decade ? [] : [{key: 'episode', order: 'desc'}]"
+      :itemsPerPage="itemsPerPage"
+    ></MovieListMobile>
+  </div>
 </template>

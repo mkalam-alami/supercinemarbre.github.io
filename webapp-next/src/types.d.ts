@@ -169,6 +169,8 @@ export interface Movie {
   // ===================== TRANSIENT (CLIENT-ONLY) ===================== */
 
   searchString?: string;
+
+  episode?: number;
 }
 
 export interface XmltvSchedule {
@@ -187,3 +189,10 @@ interface XmltvBroadcast {
   channel: string;
   date: string;
 }
+
+  // ===================== VUETIFY ===================== */
+
+export type VuetifySortItem = {
+  key: string;
+  order?: boolean | 'asc' | 'desc';
+};
