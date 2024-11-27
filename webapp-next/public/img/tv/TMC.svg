@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg6448" inkscape:version="0.91 r13725" sodipodi:docname="TMC logo 2016.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 700 253"
+	 style="enable-background:new 0 0 700 253;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#rect7109_1_);}
+	.st1{fill:#FFFFFF;}
+</style>
+<path id="path7116" inkscape:connector-curvature="0" d="M0,0v253h700V0H0z"/>
+<linearGradient id="rect7109_1_" gradientUnits="userSpaceOnUse" x1="-338.7096" y1="404.2617" x2="-68.6325" y2="401.9502" gradientTransform="matrix(2.5473 0 0 2.4689 872.832 -901.6151)">
+	<stop  offset="0" style="stop-color:#000000"/>
+	<stop  offset="0.2843" style="stop-color:#5C5C5A"/>
+	<stop  offset="0.3971" style="stop-color:#737371"/>
+	<stop  offset="0.4961" style="stop-color:#5E5E5C"/>
+	<stop  offset="0.6857" style="stop-color:#3C3C3C"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path id="rect7109" inkscape:connector-curvature="0" class="st0" d="M0,0v193.1c16.4-6.6,32.8-13,49.3-19.1
+	c17.8-6.6,35.6-12.9,53.5-18.9c17.8-6,35.6-11.7,53.4-17.2s35.6-10.6,53.3-15.5c17.8-4.9,35.5-9.6,53.3-14
+	c17.7-4.4,35.5-8.6,53.2-12.6s35.4-7.8,53.1-11.4c35.4-7.2,70.8-13.7,106.1-19.5c35.3-5.9,70.6-11.1,105.9-16s70.5-9.3,105.6-13.4
+	c4.5-0.5,8.9-1,13.4-1.5V0H0z"/>
+<path class="st1" d="M217,38.2H77.8c-11.8,0-21.3,9.3-21.3,20.7c0,11.5,9.5,20.7,21.3,20.7h48.3v135.2h42.5V79.7h48.3
+	c11.8,0,21.3-9.3,21.3-20.7C238.3,47.5,228.8,38.2,217,38.2 M609.2,154.5c-8.1,10.6-20.9,17.8-35.5,18.6
+	c-26.3,1.4-48.8-18.3-50.2-44c-1.4-25.7,18.7-47.6,45-49.1c14.6-0.8,28.1,5,37.5,14.6l0,0c0.4,0.4,0.9,0.8,1.3,1.3
+	c8.7,7.6,22.2,7,30-1.6c7.4-8.1,7.2-20.3-0.3-28.1l0,0c-17.6-18.4-43.2-29.3-70.9-27.9c-49.9,2.7-88.1,44.3-85.4,93
+	c2.7,48.7,45.4,86,95.3,83.4c27.8-1.5,51.9-15,67.5-35.2L609.2,154.5z M450.2,43c-9-7.4-22.4-6.2-30,2.5l-63.9,74.4l-64-74.4
+	c-7.6-8.8-21-9.9-30-2.5c-5,4.1-7.6,10-7.6,15.9l0,0v155.9h42.5V116l42.6,49.6l0,0l0.1,0.1l0,0c3.9,4.5,9.7,7.4,16.3,7.4
+	c6.6,0,12.3-2.9,16.3-7.4l0,0l42.7-49.7v98.9h42.5V59l0,0C457.9,53,455.3,47.1,450.2,43"/>
+</svg>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Livello_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 89.9 24"
+	 style="enable-background:new 0 0 89.9 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#BDBDC4;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+	.st2{opacity:0.6;fill-rule:evenodd;clip-rule:evenodd;fill:url(#Mask_1_);fill-opacity:0.7;enable-background:new    ;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="24" width="89.9" x="0" y="0"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g transform="translate(16.000000, 0.000000)">
+	<path id="Combined-Shape" class="st0" d="M53.5,12.6v0.9h-2.2V16H53v0.9h-1.8v3.4h-1.1v-7.6H53.5z M55.4,12.6v7.6h-1.1v-7.6H55.4z
+		 M57.6,12.6v6.7h1.9v0.9h-3v-7.6H57.6z M61.7,12.6l1.3,4.7l1.3-4.7h1.2v7.6h-1v-5.6l-1.1,3.9h-1l-1.1-3.9v5.6h-1v-7.6H61.7z
+		 M68.9,12.6c0.8,0,1.1,0.4,1.1,1.1v1.1h-1.1v-1c0-0.1,0-0.2-0.1-0.3c0,0-0.1-0.1-0.3-0.1H68c-0.1,0-0.2,0-0.3,0.1
+		c0,0-0.1,0.1-0.1,0.3v1.7c0,0.1,0,0.2,0.1,0.3c0,0,0.1,0.1,0.3,0.1h0.9c0.8,0,1.1,0.4,1.1,1.1v2.2c0,0.7-0.4,1.1-1.2,1.1h-1.2
+		c-0.8,0-1.1-0.4-1.1-1.1v-1.1h1.1v1c0,0.1,0,0.2,0.1,0.3c0,0,0.1,0.1,0.3,0.1h0.5c0.1,0,0.2,0,0.3-0.1c0,0,0.1-0.1,0.1-0.3v-1.9
+		c0-0.1,0-0.2-0.1-0.3c0,0-0.1-0.1-0.3-0.1h-0.9c-0.7,0-1.1-0.4-1.1-1.1v-2c0-0.7,0.4-1.1,1.1-1.1H68.9z M65,3.8v7.6h-1.1V3.8H65z
+		 M69.4,3.8v0.9h-2.1V7h1.8v0.9h-1.8v2.6h2.2v0.9h-3.3V3.8H69.4z M72.7,3.8c0.8,0,1.1,0.4,1.1,1.1V6h-1.1V5c0-0.1,0-0.2-0.1-0.3
+		c0,0-0.1-0.1-0.3-0.1h-0.5c-0.1,0-0.2,0-0.3,0.1c0,0-0.1,0.1-0.1,0.3v1.7c0,0.1,0,0.2,0.1,0.3c0,0,0.1,0.1,0.3,0.1h0.9
+		c0.8,0,1.1,0.4,1.1,1.1v2.2c0,0.7-0.4,1.1-1.2,1.1h-1.2c-0.8,0-1.1-0.4-1.1-1.1V9.2h1.1v1c0,0.1,0,0.2,0.1,0.3c0,0,0.1,0.1,0.3,0.1
+		h0.5c0.1,0,0.2,0,0.3-0.1c0,0,0.1-0.1,0.1-0.3V8.3c0-0.1,0-0.2-0.1-0.3c0,0-0.1-0.1-0.3-0.1h-0.9c-0.7,0-1.1-0.4-1.1-1.1v-2
+		c0-0.7,0.4-1.1,1.1-1.1H72.7z M52.5,3.8c0.8,0,1.1,0.4,1.1,1.1V6h-1.1V5c0-0.1,0-0.2-0.1-0.3c0,0-0.1-0.1-0.3-0.1h-0.5
+		c-0.1,0-0.2,0-0.3,0.1c0,0-0.1,0.1-0.1,0.3v1.7c0,0.1,0,0.2,0.1,0.3c0,0,0.1,0.1,0.3,0.1h0.9c0.8,0,1.1,0.4,1.1,1.1v2.2
+		c0,0.7-0.4,1.1-1.2,1.1h-1.2c-0.8,0-1.1-0.4-1.1-1.1V9.2h1.1v1c0,0.1,0,0.2,0.1,0.3c0,0,0.1,0.1,0.3,0.1h0.5c0.1,0,0.2,0,0.3-0.1
+		c0,0,0.1-0.1,0.1-0.3V8.3c0-0.1,0-0.2-0.1-0.3c0,0-0.1-0.1-0.3-0.1h-0.9c-0.7,0-1.1-0.4-1.1-1.1v-2c0-0.7,0.4-1.1,1.1-1.1H52.5z
+		 M57.9,3.8v0.9h-2.1V7h1.8v0.9h-1.8v2.6H58v0.9h-3.3V3.8H57.9z M61.4,3.8c0.8,0,1.1,0.4,1.1,1.1v2.4c0,0.6-0.3,1-0.8,1.1l1.2,3.1
+		h-1.2l-1.2-3.1H60v3.1h-1.1V3.8H61.4z M61.1,4.6H60v2.8h1.1c0.1,0,0.2,0,0.3-0.1c0,0,0.1-0.1,0.1-0.3V5c0-0.1,0-0.2-0.1-0.3
+		C61.3,4.7,61.2,4.6,61.1,4.6z M57.2,2.5l-0.8,1h-0.8l0.6-1H57.2z"/>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-1857.8064" y1="1048.0416" x2="-1856.8179" y2="1048.0416" gradientTransform="matrix(62 0 0 -24 115168 25165)">
+		<stop  offset="0" style="stop-color:#020186"/>
+		<stop  offset="0.5057" style="stop-color:#0500E7"/>
+		<stop  offset="1" style="stop-color:#02A7E6"/>
+	</linearGradient>
+	<polyline id="SVGID" class="st1" points="46,0 15,0 15,0 -16,0 -16,24 15,24 15,24 46,24 46,0 	"/>
+	
+		<radialGradient id="Mask_1_" cx="-1829.0931" cy="1153.469" r="0.8792" gradientTransform="matrix(1.117664e-15 18.2529 30.958 -1.895635e-15 -35697.1953 33386.1641)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	</radialGradient>
+	<path id="Mask" class="st2" d="M-16,0v18.3c0,0,24.8-11.3,62.1-14.5V0H-16"/>
+	<polygon id="Fill-1" class="st3" points="-10.5,4.1 -10.5,9.6 -6.9,9.6 -6.9,19.9 0,19.9 0,9.6 3.7,9.6 3.7,4.1 	"/>
+	<polygon id="Fill-2" class="st3" points="12.2,4.1 12.2,19.9 19.1,19.9 19.1,15 23.4,15 23.4,11 19.1,11 19.1,8.1 25.1,8.1 
+		25.1,4.1 	"/>
+	<polygon id="Fill-3" class="st3" points="40.4,4 33.3,6.1 33.3,19.9 40.4,19.9 	"/>
+</g>
+</svg>
